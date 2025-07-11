@@ -1,23 +1,28 @@
 import './styles/theme.css';
 import './styles/global.css';
-import { Heading } from './components/Heading'
-import { TimerIcon } from 'lucide-react';
+import { Container } from './components/Container';
+import { Logo } from './components/Logo';
+import { Menu } from './components/Menu';
+import { CountDown } from './components/CountDown';
+
 
 export function App() {
 
     return (
         <>
-            <Heading>
-                Ola 1 
-                <button>
-                    <TimerIcon/>
-                </button>
-            </Heading>
-
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates,
-                quibusdam necessitatibus! Repudiandae, modi. Accusantium corporis
-                laborum debitis blanditiis aliquam pariatur dicta. Veritatis blanditiis
-                expedita porro nam nemo. Facere, possimus culpa.</p>
+    <Container>
+        <Logo></Logo>
+    </Container>
+    <Container>
+        <Menu></Menu>
+    </Container>
+    <Container>
+    <CountDown></CountDown>
+    </Container>
+    <Container>
+        <section>FOOTER</section>
+    </Container>
+           
         </>
     );
 }
