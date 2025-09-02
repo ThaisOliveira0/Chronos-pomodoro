@@ -28,11 +28,10 @@
     --text-over-warning:  #0a0f1a;
     --text-over-error: #e6e9f0;
     --text-over-info: #0a0f1a;
-
     --text-default: #e6e9f0;
     --text-muted: #aab3cc;
-
 }
+
 :root[data-theme='light'] {
   --gray-100: #0a0f1a;
   --gray-200: #181f2e;
