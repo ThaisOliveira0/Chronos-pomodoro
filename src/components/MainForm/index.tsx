@@ -21,7 +21,7 @@ export function MainForm() {
 
             <Cycles></Cycles>
 
-            <DefaultButton icon={<PlayCircleIcon />} color='red' />
+            <DefaultButton icon={<PlayCircleIcon />} color='green' />
         </form>
     )
 }
